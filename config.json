@@ -1,0 +1,32 @@
+{
+  "development":{
+    "version": 1,
+    "database":{
+        "host":"115.29.248.18",
+        "port":3306,
+        "user":"root",
+        "password":"wujinsong",
+        "database":"zhilela"
+    },
+    "secret":"",
+    "ssl":{
+      "key":"",
+      "cert":""
+    }
+  },
+  "production":{
+      "version":0,
+      "database":{
+          "host":"",
+          "port":0,
+          "user":"root",
+          "password":"wujinsong",
+          "database":"zhilela"
+      },
+    "secret":"",
+    "ssl":{
+      "key":"",
+      "cert":""
+    }
+  }
+}

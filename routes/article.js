@@ -4,8 +4,8 @@
 var express = require("express");
 var router = express.Router();
 
-router.get('/article',function(req,res,next){
-    res.render("article",{title:"文章"});
+router.get('/',function(req,res,next){
+    res.send("dd");
 });
 
 module.exports = router;
